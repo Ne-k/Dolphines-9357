@@ -6,7 +6,7 @@ module.exports = {
 
       {
         source: '/github',
-        destination: 'https://github.com',
+        destination: 'https://github.com/FTC-Dolphines-9357',
         permanent: true
       },
 
