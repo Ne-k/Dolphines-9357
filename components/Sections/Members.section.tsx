@@ -26,7 +26,7 @@ const Skills = () => {
 
           <p className="flex flex-row text-slate-300">
               <BsArrowRightShort size="30" />
-              <span className="text-white">Hannah Comptopn or however the fuck you spell it</span>
+              <span className="text-white">Hannah Compton</span>
               &nbsp;CAD and hardware
           </p>
 
