@@ -1,0 +1,65 @@
+import Link from "next/link";
+
+const Skills = () => {
+    return (
+        <>
+                <style jsx global>{`
+            body {
+              background-color: #5c83ad;
+            }
+          `}</style>
+            <div className="my-16 px-3 font-sen text-white" id="robots">
+                <p className="text-3xl font-bold text-white flex flex-row items-center border-b-[0.1px] border-white-500 py-1 text-slate-300 text-center">Robot Showcase</p>
+
+                <div className="text-md my-8 flex flex-col font-medium md:text-xl custom:text-lg">
+                    <p className="flex flex-row text-slate-300">
+                        <Link href="/2021JC1" passHref>
+                            <a
+                                className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-white-400 duration-100 hover:ml-2"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                2021 Jim Carrey (1)
+                            </a>
+                        </Link>
+                    </p>
+                    <p className="flex flex-row text-slate-300">
+                        <Link href="/2021JC2" passHref>
+                            <a
+                                className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-white-400 duration-100 hover:ml-2"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                2021 Jim Carrey (2)
+                            </a>
+                        </Link>
+                    </p>
+                    <p className="flex flex-row text-slate-300">
+                        <Link href="/2022JC1" passHref>
+                            <a
+                                className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-white-400 duration-100 hover:ml-2"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                2022 Jim Carrey (1)
+                            </a>
+                        </Link>
+                    </p>
+                    <p className="flex flex-row text-slate-300">
+                        <Link href="/2022JC2" passHref>
+                            <a
+                                className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-white-400 duration-100 hover:ml-2"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                2022 Jim Carrey (2)
+                            </a>
+                        </Link>
+                    </p>
+                </div>
+            </div>
+        </>
+    );
+};
+
+export default Skills;
