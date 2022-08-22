@@ -5,7 +5,7 @@ const Skills = () => {
         <>
                 <style jsx global>{`
             body {
-              background-color: #5c83ad;
+              background-color: #4162b0;
             }
           `}</style>
             <div className="my-16 px-3 font-sen text-white" id="robots">

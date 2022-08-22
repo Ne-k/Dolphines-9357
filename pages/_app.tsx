@@ -39,7 +39,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           url: "https://dolphines.org/",
           title: "FTC Team Dolphines 9357",
           description:
-            "ive me suggestions on what to put here",
+            "Give me suggestions on what to put here",
         }}
         additionalMetaTags={[
           {
