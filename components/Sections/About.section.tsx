@@ -21,17 +21,6 @@ const About: NextComponentType = () => {
                       I don't know what information to put here about the team lmao
                   </p>
 
-                  <Link href="https://ko-fi.com/cardinnguyen" passHref>
-                      <a
-                          className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-white duration-100 hover:ml-2"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                      >
-                          Help support my projects!
-                          <HiOutlineArrowNarrowRight/>
-                      </a>
-                  </Link>
-
               </div>
 
               <div className="hidden custom:block">
