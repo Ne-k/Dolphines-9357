@@ -6,22 +6,11 @@ const Skills = () => {
       <p className="text-3xl font-bold text-white text-center">Team Members</p>
 
       <div className="text-md my-8 flex flex-col font-medium md:text-xl custom:text-lg">
-        <p className="flex flex-row text-slate-300">
-          <BsArrowRightShort size="20" />
-          <span className="text-white">Ethan McKelly</span>
-          &nbsp;Everything hardware
-        </p>
 
           <p className="flex flex-row text-slate-300">
               <BsArrowRightShort size="20" />
-              <span className="text-white">Jack Denning</span>
-              &nbsp;Hardware, scouting, and mascot apparently
-          </p>
-
-          <p className="flex flex-row text-slate-300">
-              <BsArrowRightShort size="20" />
-              <span className="text-white">Joss Kirby</span>
-              &nbsp;Engineering notebook/help hardware
+              <span className="text-white">Tyler Bretthauer</span>
+              &nbsp;Software and website
           </p>
 
           <p className="flex flex-row text-slate-300">
@@ -32,21 +21,34 @@ const Skills = () => {
 
           <p className="flex flex-row text-slate-300">
               <BsArrowRightShort size="20" />
-              <span className="text-white">Cardin Nguyen</span>
-              &nbsp;Software and website
-          </p>
-
-          <p className="flex flex-row text-slate-300">
-              <BsArrowRightShort size="20" />
-              <span className="text-white">Tyler Bretthauer</span>
-              &nbsp;Software and website
+              <span className="text-white">Jack Denning</span>
+              &nbsp;Hardware, scouting, and mascot apparently
           </p>
 
           <p className="flex flex-row text-slate-300 items-center border-b-[0.1px] border-white py-1">
               <BsArrowRightShort size="20" />
               <span className="text-white">Sam Felstad</span>
-              &nbsp;Ginger whore.
+              &nbsp;Ginger.
           </p>
+
+          <p className="flex flex-row text-slate-300">
+              <BsArrowRightShort size="20" />
+              <span className="text-white">Joss Kirby</span>
+              &nbsp;Engineering notebook/help hardware
+          </p>
+
+        <p className="flex flex-row text-slate-300">
+          <BsArrowRightShort size="20" />
+          <span className="text-white">Ethan McKelley</span>
+          &nbsp;Everything hardware
+        </p>
+
+          <p className="flex flex-row text-slate-300">
+              <BsArrowRightShort size="20" />
+              <span className="text-white">Cardin Nguyen</span>
+              &nbsp;Software and website
+          </p>
+
       </div>
     </div>
   );
