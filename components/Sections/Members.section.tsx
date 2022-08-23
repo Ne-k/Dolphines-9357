@@ -25,7 +25,7 @@ const Skills = () => {
               &nbsp;Hardware, scouting, and mascot apparently
           </p>
 
-          <p className="flex flex-row text-slate-300 items-center border-b-[0.1px] border-white py-1">
+          <p className="flex flex-row text-slate-300">
               <BsArrowRightShort size="20" />
               <span className="text-white">Sam Felstad</span>
               &nbsp;Ginger.
@@ -43,7 +43,7 @@ const Skills = () => {
           &nbsp;Everything hardware
         </p>
 
-          <p className="flex flex-row text-slate-300">
+          <p className="flex flex-row text-slate-300 items-center border-b-[0.1px] border-white py-1">
               <BsArrowRightShort size="20" />
               <span className="text-white">Cardin Nguyen</span>
               &nbsp;Software and website
