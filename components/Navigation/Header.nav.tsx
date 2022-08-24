@@ -3,11 +3,15 @@ import type { NextComponentType, NextPageContext } from "next";
 import Link from "next/link";
 
 import type { linkProps } from "../../@types/prop.types";
+import {useRouter} from "next/router";
 
 const TextLink: NextComponentType<NextPageContext, {}, linkProps> = ({
   text,
   url,
 }) => {
+  const router = useRouter();
+  const currentRoute = router.pathname;
+
   return (
     <a
       href={url}
