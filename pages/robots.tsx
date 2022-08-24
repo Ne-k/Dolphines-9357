@@ -5,7 +5,7 @@ import {
     Header
 } from "../components";
 
-const Skills = () => {
+const Robots = () => {
     return (
         <>
                 <style jsx global>{`
@@ -76,4 +76,4 @@ const Skills = () => {
     );
 };
 
-export default Skills;
+export default Robots;
