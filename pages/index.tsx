@@ -21,6 +21,16 @@ const Home: NextPage = () => {
               <About/>
               <Members/>
               <Contact/>
+              <footer>
+                  <div className="flex flex-col justify-center items-center text-center p-5 bg-white" style={{backgroundColor: "#4162b0"}}>
+                      <h1 className=" text-white font-semibold">
+                          Copyright © 2022 {" "}
+                            <span className="hover:text-blue-600 font-semibold cursor-pointer">
+                                9357 Dolphines{" "}
+                            </span>
+                        </h1>
+                  </div>
+              </footer>
 
           </div>
       </>
