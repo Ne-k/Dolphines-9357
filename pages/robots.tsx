@@ -22,6 +22,18 @@ const Robots = () => {
 
                 <div className="text-md my-8 flex flex-col font-medium md:text-xl custom:text-lg">
                     <p className="flex flex-row text-slate-300">
+                        <Link href="/2022JC2" passHref>
+                            <a
+                                className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-white-400 duration-100 hover:ml-2"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <BsArrowRightShort size="20" />
+                                2022 Techy
+                            </a>
+                        </Link>
+                    </p>
+                    <p className="flex flex-row text-slate-300">
                         <Link href="/2021JC1" passHref>
 
                             <a
@@ -30,43 +42,7 @@ const Robots = () => {
                                 rel="noopener noreferrer"
                             >
                                 <BsArrowRightShort size="20" />
-                                2021 Jim Carrey (1)
-                            </a>
-                        </Link>
-                    </p>
-                    <p className="flex flex-row text-slate-300">
-                        <Link href="/2021JC2" passHref>
-                            <a
-                                className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-white-400 duration-100 hover:ml-2"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <BsArrowRightShort size="20" />
-                                2021 Jim Carrey (2)
-                            </a>
-                        </Link>
-                    </p>
-                    <p className="flex flex-row text-slate-300">
-                        <Link href="/2022JC1" passHref>
-                            <a
-                                className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-white-400 duration-100 hover:ml-2"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <BsArrowRightShort size="20" />
-                                2022 Jim Carrey (1)
-                            </a>
-                        </Link>
-                    </p>
-                    <p className="flex flex-row text-slate-300">
-                        <Link href="/2022JC2" passHref>
-                            <a
-                                className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-white-400 duration-100 hover:ml-2"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <BsArrowRightShort size="20" />
-                                2022 Jim Carrey (2)
+                                2022 Techy (2)
                             </a>
                         </Link>
                     </p>
