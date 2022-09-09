@@ -37,12 +37,6 @@ const Skills = () => {
           &nbsp;Everything hardware
         </p>
 
-          <p className="flex flex-row text-slate-300 items-center border-b-[0.1px] border-white py-1">
-              <BsArrowRightShort size="20" />
-              <span className="text-white">Cardin Nguyen</span>
-              &nbsp;Software and website
-          </p>
-
       </div>
     </div>
   );
