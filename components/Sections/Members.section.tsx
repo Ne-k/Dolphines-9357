@@ -15,12 +15,6 @@ const Skills = () => {
 
           <p className="flex flex-row text-slate-300">
               <BsArrowRightShort size="20" />
-              <span className="text-white">Hannah Compton</span>
-              &nbsp;CAD and hardware
-          </p>
-
-          <p className="flex flex-row text-slate-300">
-              <BsArrowRightShort size="20" />
               <span className="text-white">Jack Denning</span>
               &nbsp;Hardware, scouting, and mascot apparently
           </p>
